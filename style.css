@@ -2,6 +2,21 @@ body{
     background-color: black;
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -14,9 +29,6 @@ body{
     border: 1px solid #369eff66;
     width: 14em;
     height: 14em;
-    position: relative;
-    top: 200px;
-    left: 570px;
 }
 
 .content{
